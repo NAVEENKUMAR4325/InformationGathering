@@ -24,6 +24,16 @@ Open terminal/browser and try execute necessary commands/use url to perform info
 ## OUTPUT:
 ![Screenshot 2023-09-13 175606](https://github.com/NAVEENKUMAR4325/InformationGathering/assets/119479566/3ec70a48-8834-4880-977b-601ef3a1863b)
 
+## Finding IP Address:
+
+ping command is available on Windows as well as on Linux OS. Following is the example to find out the IP address of saveetha.ac.in.
+```
+ping saveetha.ac.in
+```
+## OUTPUT:
+
+![ping](https://github.com/NAVEENKUMAR4325/InformationGathering/assets/119479566/1e04cba2-efea-4583-a15c-fd2f9289e36d)
+
 ### Finding Hosting Company:
 
 get further detail by using ip2location.com website.
@@ -37,6 +47,8 @@ get further detail by using ip2location.com website.
 ## Output:
 
 ![Screenshot 2023-09-13 180123](https://github.com/NAVEENKUMAR4325/InformationGathering/assets/119479566/f0e705e6-32d1-4317-b4a4-02d7c126759a)
+
+Web Server Fingerprinting:
 
 
 ## RESULT:
