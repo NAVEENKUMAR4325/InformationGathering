@@ -48,7 +48,65 @@ get further detail by using ip2location.com website.
 
 ![Screenshot 2023-09-13 180123](https://github.com/NAVEENKUMAR4325/InformationGathering/assets/119479566/f0e705e6-32d1-4317-b4a4-02d7c126759a)
 
-Web Server Fingerprinting:
+## Web Server Fingerprinting:
+## Netcat:
+```
+nc 172.17.52.118 80
+```
+## OUTPUT:
+![image](https://github.com/NAVEENKUMAR4325/InformationGathering/assets/119479566/d1f0210b-9156-404f-8c02-76d510c1811b)
+
+## Nmap:
+```
+nmap -p 21 -sV --script=banner ftp.vim.org
+```
+## Output:
+![image](https://github.com/NAVEENKUMAR4325/InformationGathering/assets/119479566/fa84cef7-ca0c-4f88-abbb-74e2010e6997)
+
+## Whatweb:
+```
+whatweb infosys.com
+```
+```
+whatweb zoho.com
+```
+```
+whatweb -v -a 3 172.17.52.201
+```
+## Output:
+![image](https://github.com/NAVEENKUMAR4325/InformationGathering/assets/119479566/28c1c032-d519-4b99-8397-4169e7f92a79)
+
+## httprint:
+```
+httprint -h 172.17.52.201 -s /usr/share/httprint/signatures.txt -P0 |more
+```
+## Output:
+![image](https://github.com/NAVEENKUMAR4325/InformationGathering/assets/119479566/2e014e0d-7f22-4295-99a2-ed356bf53038)
+
+## Tracing the location:
+## TCP Traceroute:
+```
+sudo traceroute -T www.saveetha.ac.in
+```
+## Output:
+![image](https://github.com/NAVEENKUMAR4325/InformationGathering/assets/119479566/82af8c57-112c-4d1c-a315-77c101b1dae7)
+
+## UDP Traceroute:
+```
+sudo traceroute -U www.saveetha.ac.in
+```
+## Output:
+![image](https://github.com/NAVEENKUMAR4325/InformationGathering/assets/119479566/1e89bc42-1570-485c-b7dd-eb7eb9b59660)
+
+## ICMP Traceroute:
+```
+sudo traceroute  www.saveetha.ac.in
+```
+## Output:
+![image](https://github.com/NAVEENKUMAR4325/InformationGathering/assets/119479566/f73f452c-739c-44ad-9150-12cb1f38ed94)
+
+
+
 
 
 ## RESULT:
